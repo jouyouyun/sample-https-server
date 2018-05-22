@@ -15,7 +15,18 @@
 
 ## Compile
 
-`go build`
-
+``` shell
+cd ./src
+go build server.go
+go build client.go
+```
 
 ## Usage
+
++ Launch server
+
+    `./server <CA.cert> <Server.crt> <Server.key> <port>`
+
++ Launch client
+
+    `./client <CA.cert> <Client.crt> <Client.key>`
